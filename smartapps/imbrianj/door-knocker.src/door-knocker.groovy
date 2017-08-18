@@ -54,7 +54,7 @@ def init() {
 
 def doorClosed(evt) {
   state.lastClosed = now()
-}
+ }
 
 def doorKnock() {
   if((openSensor.latestValue("contact") == "closed") &&
